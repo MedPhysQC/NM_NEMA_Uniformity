@@ -1,0 +1,19 @@
+{
+    "info": {
+        "dbversion": "20180209",
+        "magic": "wad-qc-factory"
+    },
+    "module": {
+        "description": "Calculate gammacamera uniformity according to NEMA NU1",
+        "executable": "QCUnif_wadwrapper.py",
+        "name": "NEMA Uniformity",
+        "code": "python",
+            "matplotlib",
+            "numpy",
+            "pydicom",
+            "pylab",
+            "scikit-image",
+            "skimage"
+        ]
+    }
+}

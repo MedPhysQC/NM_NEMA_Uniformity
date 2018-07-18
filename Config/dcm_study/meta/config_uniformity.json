@@ -1,0 +1,154 @@
+{
+    "comments": {
+        "author": "Tim de Wit, AMC", 
+        "creator": "Tim de Wit, AMC", 
+        "description": "CR_DR/Pehamed_Wellhofer for Philips Digital Diagnost with Pehamed"
+    }, 
+    "results": {
+        "det1_IU (UFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Integral uniformity det1 x UFOV", 
+            "display_level": 1,
+            "display_name": "Integral Uniformity", 
+            "units": "%"
+        },
+        "det1_IU (CFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Integral uniformity det1 x CFOV", 
+            "display_level": 1,
+            "display_name": "Integral Uniformity", 
+            "units": "%"
+        },
+        "det2_IU (UFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Integral uniformity det2 UFOV", 
+            "display_level": 1,
+            "display_name": "Integral Uniformity", 
+            "units": "%"
+        },
+        "det2_IU (CFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Integral uniformity det2 CFOV", 
+            "display_level": 1,
+            "display_name": "Integral Uniformity", 
+            "units": "%"
+        },
+        "det1_DU_x (UFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 x UFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        },
+        "det1_DU_y (UFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 y UFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        },
+        "det1_DU_x (CFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 x CFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        },
+        "det1_DU_y (CFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 x CFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        },
+        "det2_DU_x (UFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 x UFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        },
+        "det2_DU_y (UFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 x UFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        },
+        "det2_DU_x (CFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 x CFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        },
+        "det2_DU_y (CFOV)": {
+            "constraint_minlowhighmax": [
+                0,
+                0,
+                3,
+                5
+            ], 
+            "description": "Differential uniformity det1 x CFOV", 
+            "display_level": 1,
+            "display_name": "Differential Uniformity", 
+            "units": "%"
+        }
+
+    }
+}
