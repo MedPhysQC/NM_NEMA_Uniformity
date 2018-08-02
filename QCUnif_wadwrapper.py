@@ -59,6 +59,26 @@ import NEMA_unif_lib as nemalib
 
 import os
 
+def logTag():
+    return "[NM_NEMA_uniformity]"
+
+def acqdatetime_series(data, results, action):
+    """
+    Read acqdatetime from dicomheaders and write to IQC database
+    Workflow:
+        1. Read only headers
+    """
+    try:
+        params = action['params']
+    except KeyError:
+        params = {}
+
+    ## 1. read only headers
+    dcmInfile = dicom.read_file(data.series_filelist[0][0], stop_before_pixels=True)
+
+    dt = wadwrapper_lib.acqdatetime_series(dcmInfile)
+
+    results.addDateTime('AcquisitionDateTime', dt) 
 
 
 class uniformity_nm:
@@ -279,8 +299,8 @@ if __name__ == "__main__":
 
     # read runtime parameters for module
     for name,action in config['actions'].items():
-        #if name == 'acqdatetime':
-        #    acqdatetime_series(data, results, action)
+        if name == 'acqdatetime':
+            acqdatetime_series(data, results, action)
         if name == 'qc_series':
             uniformity_nm(data, results, action)
 
