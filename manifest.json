@@ -8,6 +8,7 @@
         "executable": "QCUnif_wadwrapper.py",
         "name": "NEMA Uniformity",
         "code": "python",
+        "dependencies": [
             "matplotlib",
             "numpy",
             "pydicom",
