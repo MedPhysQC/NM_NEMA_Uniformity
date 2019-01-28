@@ -1,0 +1,30 @@
+{
+    "actions": {
+        "acqdatetime": {
+            "filters": {}, 
+            "params": {}
+        }, 
+        "qc_series": {
+            "filters": {}, 
+            "params": {
+                "detector_identification": {
+                    "det1": {},
+                    "det2": {}
+                },
+                "perform_dome_correction": 1
+            }
+        }
+    }, 
+    "cfgformat": "20180910", 
+    "comments": {
+        "author": "Tim de Wit, Amsterdam UMC", 
+        "creator": "Tim de Wit, Amsterdam UMC", 
+        "description": "NEMA Uniformity", 
+        "params": {
+            "detector_identification": "Used for linking specific series/instances to specific detectors (optional)",
+            "perform_dome_correction": "Correct for small source-detector distance (typical for Siemens systems)" 
+        }, 
+        "usage": [],
+        "version": "20180714"
+    }
+}
