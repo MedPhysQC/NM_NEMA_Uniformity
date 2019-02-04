@@ -9,12 +9,13 @@
             "params": {
                 "detector_identification": {
                     "det1": { "0008,103E": "Uniformity det 1"},
-                    "det2": { "0008,103E": "Uniformity det 2"},
+                    "det2": { "0008,103E": "Uniformity det 2"}
                 },
                 "perform_dome_correction": 0
             }
         }
-    }, 
+    },
+    "cfgformat": "20180910", 
     "comments": {
         "author": "Tim de Wit, Amsterdam UMC", 
         "creator": "Tim de Wit, Amsterdam UMC", 

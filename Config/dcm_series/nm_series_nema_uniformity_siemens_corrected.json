@@ -11,10 +11,10 @@
                     "det1": {},
                     "det2": {}
                 },
-                "perform_dome_correction": 1
+                "perform_dome_correction": 0
             }
         }
-    },
+    }, 
     "cfgformat": "20180910", 
     "comments": {
         "author": "Tim de Wit, Amsterdam UMC", 

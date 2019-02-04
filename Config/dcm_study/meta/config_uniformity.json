@@ -2,8 +2,9 @@
     "comments": {
         "author": "Tim de Wit, AMC", 
         "creator": "Tim de Wit, AMC", 
-        "description": "CR_DR/Pehamed_Wellhofer for Philips Digital Diagnost with Pehamed"
+        "description": "NM/NEMA Uniformity Siemens Intevo"
     }, 
+    "metaformat": "20180910", 
     "results": {
         "det1_IU (UFOV)": {
             "constraint_minlowhighmax": [
@@ -13,7 +14,7 @@
                 5
             ], 
             "description": "Integral uniformity det1 x UFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Integral Uniformity", 
             "units": "%"
         },
@@ -25,7 +26,7 @@
                 5
             ], 
             "description": "Integral uniformity det1 x CFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Integral Uniformity", 
             "units": "%"
         },
@@ -37,7 +38,7 @@
                 5
             ], 
             "description": "Integral uniformity det2 UFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Integral Uniformity", 
             "units": "%"
         },
@@ -49,7 +50,7 @@
                 5
             ], 
             "description": "Integral uniformity det2 CFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Integral Uniformity", 
             "units": "%"
         },
@@ -61,7 +62,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 x UFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         },
@@ -73,7 +74,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 y UFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         },
@@ -85,7 +86,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 x CFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         },
@@ -97,7 +98,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 x CFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         },
@@ -109,7 +110,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 x UFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         },
@@ -121,7 +122,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 x UFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         },
@@ -133,7 +134,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 x CFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         },
@@ -145,7 +146,7 @@
                 5
             ], 
             "description": "Differential uniformity det1 x CFOV", 
-            "display_level": 1,
+            "display_level": 2,
             "display_name": "Differential Uniformity", 
             "units": "%"
         }
