@@ -13,6 +13,7 @@
 
 """
 Changelog:
+    20190206: Modified flux function to speed up dome-fitting (TdW)
     20150121: Code cleanup + modification to make module compatible with Philips camera's (TdW)
     [history here]
     ...
@@ -72,7 +73,7 @@ def flux(A, R_0, center_x, center_y):
     R_0      = float(R_0)
     center_x = float(center_x)
     center_y = float(center_y)
-    return lambda x,y: A*R_0 /( R_0**2 + (center_x-x)**2 + (center_y-y)**2 )**(3/2.)
+    return lambda x,y: A*R_0**3 /( R_0**2 + (center_x-x)**2 + (center_y-y)**2 )**(3/2.)
 
 
 def fitflux(data):
