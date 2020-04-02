@@ -6,7 +6,7 @@
     "module": {
         "description": "Calculate gammacamera uniformity according to NEMA NU1",
         "executable": "QCUnif_wadwrapper.py",
-        "name": "NEMA Uniformity",
+        "name": "NM_NEMA_Uniformity",
         "code": "python",
         "dependencies": [
             "matplotlib",
